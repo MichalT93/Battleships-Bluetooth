@@ -1,0 +1,111 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Statki</string>
+
+    <string name="action_settings">Ustawienia</string>
+    <string name="section_format">Sekcja: %1$d</string>
+    <string name="title_setting_list">Ustawienia</string>
+    <string name="title_setting_detail">Szczegóły</string>
+    <string name="app_version">v. 1.0</string>
+    <string name="play">GRAJ</string>
+    <string name="opt">OPCJE</string>
+    <string name="exit">WYJŚCIE</string>
+    <string name="reallyEnd">Czy chcesz zakończyć grę?</string>
+    <string name="tak">TAK</string>
+    <string name="nie">NIE</string>
+    <string name="players1">Jeden Gracz</string>
+    <string name="players2">Dwóch Graczy</string>
+    <string name="opcje">Ustawienia</string>
+    <string name="nicks">Podaj swój nick:</string>
+    <string name="about">Autorzy: Paulina Niedźwiedziuk, Joanna Starobrat, Michał Tyszka</string>
+    <string name="okejka">OK</string>
+    <string name="title_activity_settings">Ustawienia</string>
+    <string name="all_done">ROZSTAWIONE</string>
+    <string name="zatwierdź">ZATWIERDŹ</string>
+
+
+    <!-- Strings related to battleground -->
+    <string name="jedno">Jednomasztowce 0/3</string>
+    <string name="dwu">Dwumasztowce 0/3</string>
+    <string name="troj">Trzymasztowce 0/2</string>
+    <string name="cztero">Czteromasztowce 0/1</string>
+    <string name="zajedno">Za dużo jednomasztowców</string>
+    <string name="zadwu">Za dużo dwumasztowców</string>
+    <string name="zatroj">Za dużo trójmasztowców</string>
+    <string name="zacztero">Za dużo czteromasztowców</string>
+    <string name="niewszystko">Nie wszystkie statki są rozstawione</string>
+    <string name="najpierw">Najpierw postaw statek</string>
+    <string name="pole">Najpierw musisz zaznaczyć pole</string>
+
+    <string name="nope">Nie ma takiego ustawiania</string>
+    <string name="m1">Jednomasztowiec</string>
+    <string name="m1s">Jednomasztowce </string>
+    <string name="m2">Dwumasztowiec</string>
+    <string name="m2s">Dwumasztowce </string>
+    <string name="m3">Trójmasztowiec</string>
+    <string name="m3s">Trójmasztowce </string>
+    <string name="m4">Czteromasztowiec</string>
+    <string name="m4s">Czteromasztowce </string>
+
+    <string name="Ty">Ty</string>
+    <string name="wait">Poczekaj na rywala</string>
+    <string name="comp">Komputer</string>
+    <string name="wygrana">Gratuluję! Wygrałeś! Chcesz spróbować jeszcze raz?</string>
+    <string name="przegrana">Niestety przegrałeś. Chcesz spróbować jeszcze raz?</string>
+    <string name="koniec">Koniec gry!</string>
+
+    <!-- Strings related to Settings -->
+    <string name="pref_header_general">Dźwięk &amp; animacja</string>
+
+    <string name="pref_title_music">Muzyka</string>
+    <string name="pref_description_music">Muzyka w tle</string>
+    <string name="pref_title_music2">Dźwięki</string>
+    <string name="pref_description_music2">Wystrzały z armat i inne</string>
+
+    <string name="pref_title_anim">Animacja</string>
+    <string name="pref_description_anim">Wybierz, aby wybrać odtwarzane dźwięki</string>
+    <string name="pref_title_ani1">Tonący statek</string>
+    <string name="pref_title_ani2">Pudło</string>
+
+    <!-- Language -->
+    <string name="pref_header_lang">Język</string>
+
+    <string name="pref_title_lang">Wybierz język</string>
+    <string-array name="pref_lang_titles">
+        <item>angielski</item>
+        <item>polski</item>
+    </string-array>
+
+    <!-- Colour -->
+    <string name="pref_header_color">Kolorystyka</string>
+
+    <string name="pref_title_col">Wybierz kolor</string>
+    <string-array name="pref_col_titles">
+        <item>czerwony</item>
+        <item>niebieski</item>
+    </string-array>
+    <string name="pref_title_night">Tryb nocny</string>
+
+    <!-- Bluetooth -->
+    <!--  Bluetooth Connection -->
+    <string name="not_connected">Nie jesteś połączony z urządzeniem</string>
+    <string name="bt_not_enabled_leaving">Nie zezwolono na włączenie Bluetooth. </string>
+    <string name="title_connecting">Łączenie...</string>
+    <string name="title_connected_to">Połączono z <xliff:g id="device_name">%1$s</xliff:g></string>
+    <string name="connected_to">Połączono z </string>
+    <string name="title_not_connected">nie połączono</string>
+
+    <!--  Device List Activity -->
+    <string name="scanning">Skanuję w poszukiwaniu urządzeń...</string>
+    <string name="select_device">Wybierz urządzenie</string>
+    <string name="none_paired">Nie sparowano z żadnym urządzeniem</string>
+    <string name="none_found">Nie znaleziono urządzeń</string>
+    <string name="title_paired_devices">Sparowane urządzenia</string>
+    <string name="title_other_devices">Pozostałe dostępne urządzenia</string>
+    <string name="button_scan">Skanuj</string>
+
+    <!-- Options Menu -->
+    <string name="currently_discoverable">Urządzenie jest widoczne.</string>
+    <string name="bonded">Powiązany</string>
+    <string name="error_connect_failed" />
+    <string name="error_connect_lost" />
+</resources>

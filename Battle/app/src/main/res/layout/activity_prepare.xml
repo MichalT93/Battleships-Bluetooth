@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.team.battle.Prepare">
+
+    <LinearLayout
+        android:id="@+id/tablica"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="310dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/butto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/all_done"
+        app:layout_marginBottomPercent="2%"
+        android:layout_marginBottom="117dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="89dp" />
+
+    <Button
+        android:id="@+id/apply"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/zatwierdź"
+        android:layout_alignBaseline="@+id/butto"
+        android:layout_alignBottom="@+id/butto"
+        android:layout_toStartOf="@+id/butto" />
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        android:layout_alignBaseline="@+id/butto"
+        android:layout_alignBottom="@+id/butto"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/jeden"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/apply"
+        android:layout_alignTop="@+id/tablica"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/dwu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/jeden"
+        android:layout_below="@+id/jeden"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/trzy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/dwu"
+        android:layout_below="@+id/dwu"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/cztery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/trzy"
+        android:layout_below="@+id/trzy"
+        android:text="TextView" />
+
+</android.support.percent.PercentRelativeLayout>

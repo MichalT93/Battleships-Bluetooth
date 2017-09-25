@@ -1,0 +1,71 @@
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffff99"
+    android:fitsSystemWindows="true"
+    android:id="@+id/startLayout"
+    tools:context="com.team.battle.StartActivity">
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        app:srcCompat="@android:drawable/ic_dialog_info"
+        android:scaleType="center"
+        android:layout_alignParentRight="true"
+        app:layout_marginTopPercent="2%"
+        app:layout_marginRightPercent="3%" />
+
+    <Button
+        android:id="@+id/button1"
+        style="?metaButtonBarButtonStyle"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/play"
+        android:textColor="@color/colorAccent"
+        android:textSize="10pt"
+        android:layout_centerHorizontal="true"
+        app:layout_marginTopPercent="10%"
+        app:layout_widthPercent="70%"
+        app:layout_heightPercent="25%" />
+
+    <Button
+        android:id="@+id/button2"
+        style="?metaButtonBarButtonStyle"
+        android:layout_below="@+id/button1"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/opt"
+        android:textColor="@color/colorAccent"
+        android:textSize="10pt"
+        android:layout_centerHorizontal="true"
+        app:layout_marginTopPercent="3%"
+        app:layout_heightPercent="25%"
+        app:layout_widthPercent="70%" />
+
+    <Button
+        android:id="@+id/button3"
+        style="?metaButtonBarButtonStyle"
+        android:layout_below="@+id/button2"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/exit"
+        android:textColor="@color/colorAccent"
+        android:textSize="10pt"
+        android:layout_centerHorizontal="true"
+        app:layout_marginTopPercent="3%"
+        app:layout_heightPercent="25%"
+        app:layout_widthPercent="70%" />
+
+    <TextView
+        android:id="@+id/textVersion"
+        android:text="@string/app_version"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        app:layout_marginBottomPercent="2%"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"/>
+
+
+</android.support.percent.PercentRelativeLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.team.battle.BattleMultiActivity">
+
+    <LinearLayout
+        android:id="@+id/tablica2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="60dp"
+        android:layout_marginLeft="310dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/atackButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Atak"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/statki1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tablica1"
+        android:layout_alignTop="@+id/atackButton"
+        android:layout_marginStart="21dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/statki2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/atackButton"
+        android:layout_marginStart="17dp"
+        android:layout_toEndOf="@+id/atackButton"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/bButton"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@mipmap/ic_action_device_access_bluetooth_searching"
+        android:layout_alignParentBottom="true"
+        android:layout_alignEnd="@+id/tablica2" />
+
+    <LinearLayout
+        android:id="@+id/tablica1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="60dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="310dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">>
+    </LinearLayout>
+
+</android.support.percent.PercentRelativeLayout>

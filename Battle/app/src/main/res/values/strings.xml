@@ -1,0 +1,124 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Battleships</string>
+
+    <string name="dummy_button">Dumm Button</string>
+    <string name="dummy_content">DUMM\nCONTENT</string>
+    <string name="title_activity_choose_game">ChooseGameActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_setting_list">Settings</string>
+    <string name="title_setting_detail">Setting Detail</string>
+    <string name="app_version">v. 1.0</string>
+    <string name="play">PLAY</string>
+    <string name="opt">OPTIONS</string>
+    <string name="exit">EXIT</string>
+    <string name="reallyEnd">Do you want to exit the game?</string>
+    <string name="tak">YES</string>
+    <string name="nie">NO</string>
+    <string name="players1">Single Player</string>
+    <string name="players2">Multi Player</string>
+    <string name="opcje">Settings</string>
+    <string name="nicks">What is your nickname?</string>
+    <string name="about">Authors: Paulina Niedźwiedziuk, Joanna Starobrat, Michał Tyszka</string>
+    <string name="okejka">OK</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="all_done">ALL DONE</string>
+    <string name="zatwierdź">APPLY</string>
+
+
+    <!-- Strings related to battleground -->
+    <string name="jedno">Submarines 0/3</string>
+    <string name="dwu">Cruisers 0/3</string>
+    <string name="troj">Destroyers 0/2</string>
+    <string name="cztero">Battleships 0/1</string>
+    <string name="zajedno">Too many submarines</string>
+    <string name="zadwu">Too many cruisers</string>
+    <string name="zatroj">Too many destroyers</string>
+    <string name="zacztero">Too many battleships</string>
+    <string name="niewszystko">Not all ships are deployed</string>
+    <string name="najpierw">You need to deploy a ship first</string>
+    <string name="pole">You need to choose a box first</string>
+
+    <string name="nope">Not an option</string>
+    <string name="m1">Submarine</string>
+    <string name="m1s">Submarines </string>
+    <string name="m3">Destroyer</string>
+    <string name="m3s">Destroyers </string>
+    <string name="m2">Cruiser</string>
+    <string name="m2s">Cruisers </string>
+    <string name="m4">Battleship</string>
+    <string name="m4s">Battleships </string>
+
+    <string name="Ty">You</string>
+    <string name="comp">Computer</string>
+    <string name="wait">Wait for opponent</string>
+    <string name="wygrana">Congratz! You won! Wanna try it again?</string>
+    <string name="przegrana">Oh no... You lost. Wanna try it again?</string>
+    <string name="koniec">Game over!</string>
+
+
+    <!-- Strings related to Settings -->
+    <string name="pref_header_general">Sound &amp; animation</string>
+
+    <string name="pref_title_music">Music</string>
+    <string name="pref_description_music">Background music</string>
+    <string name="pref_title_music2">Sounds</string>
+    <string name="pref_description_music2">Canon shots and other alerts</string>
+
+    <string name="pref_title_anim">Animation</string>
+    <string name="pref_description_anim">Enable to choose the animation to enable</string>
+    <string name="pref_title_ani1">Sinking ship</string>
+    <string name="pref_title_ani2">Empty space shot</string>
+
+    <!-- Language -->
+    <string name="pref_header_lang">Language</string>
+
+    <string name="pref_title_lang">Choose language</string>
+    <string-array name="pref_lang_titles">
+        <item>English</item>
+        <item>Polish</item>
+    </string-array>
+    <string-array name="pref_lang_values">
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+
+    <!-- Colour -->
+    <string name="pref_header_color">Colours</string>
+
+    <string name="pref_title_col">Choose colour</string>
+    <string-array name="pref_col_titles">
+        <item>Red</item>
+        <item>Blue</item>
+    </string-array>
+    <string-array name="pref_col_values">
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+    <string name="pref_title_night">Night view</string>
+
+    <string name="title_activity_basic">BasicActivity</string>
+
+    <!-- Bluetooth -->
+    <!--  Bluetooth Connection -->
+    <string name="not_connected">You are not connected to device</string>
+    <string name="bt_not_enabled_leaving">Bluetooth was not enabled. </string>
+    <string name="title_connecting">Conecting...</string>
+    <string name="title_connected_to">Connected to <xliff:g id="device_name">%1$s</xliff:g></string>
+    <string name="title_not_connected">Not connected</string>
+
+    <!--  Device List Activity -->
+    <string name="scanning">Searching devices...</string>
+    <string name="select_device">Chose device</string>
+    <string name="none_paired">Not bonded to any device</string>
+    <string name="none_found">No devices are available</string>
+    <string name="title_paired_devices">Bonded devices</string>
+    <string name="title_other_devices">Other devices</string>
+    <string name="button_scan">Scan</string>
+
+    <!-- Options Menu -->
+    <string name="currently_discoverable">Your device is discoverable.</string>
+    <string name="bonded">Bonded</string>
+    <string name="error_connect_failed" />
+    <string name="error_connect_lost" />
+</resources>
